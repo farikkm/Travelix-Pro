@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+@theme {
+    --color-sun-900: #DB6300;
+    --color-sun-700: #EA880F;
+    --color-sun-500: #EEAA2B;
+    --color-sun-300: #ECC170;
+    --color-sun-100: #FFFBF3;
+
+    --color-gray-900: #474747;
+    --color-gray-700: #666666;
+    --color-gray-500: #CACACA;
+    --color-gray-300: #E5E5E5;
+    --color-gray-100: #E2E2E2;
+}
+
+._container {
+    @apply container mx-auto px-3;
+}
